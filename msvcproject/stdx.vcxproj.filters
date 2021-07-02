@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{741e4ded-2e24-46bd-9a63-40a18f46cc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\timer">
+      <UniqueIdentifier>{bda57eab-0f81-4cbe-a1d7-117f1b8c31f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ini">
+      <UniqueIdentifier>{ae5bab56-e445-4123-8083-1ce10039511a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ioevent">
+      <UniqueIdentifier>{349a05a0-66ea-4d3c-a4da-36f35989a807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\log">
+      <UniqueIdentifier>{6e38e1da-d9b7-456e-91f8-3dee33184ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\tcp">
+      <UniqueIdentifier>{b576d1f4-56d3-4e7f-a366-2732613b1e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\thread">
+      <UniqueIdentifier>{669c877d-16b8-4cf1-bc08-10d4140f4702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{3a7b5aee-8315-4ae4-9a0f-e261674e4188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ini">
+      <UniqueIdentifier>{11df9ee3-75ee-4e16-b841-3f746e1f8d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ioevent">
+      <UniqueIdentifier>{64799e14-c164-41e8-ba1a-4a30c6983036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\log">
+      <UniqueIdentifier>{541e12a3-f5dd-4b98-a7db-cc145fe7fa1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tcp">
+      <UniqueIdentifier>{48537dd0-ca91-4ade-a40b-033702510d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\thread">
+      <UniqueIdentifier>{141ab5a4-1cc8-47e4-8b8c-d3f6533b4a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\timer">
+      <UniqueIdentifier>{c8f4ee54-52c9-452e-a071-3dd942b82ca1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\stdx.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\timer\timer.h">
+      <Filter>include\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ini\ini.h">
+      <Filter>include\ini</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ioevent\io_event.h">
+      <Filter>include\ioevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\log\log.h">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\log\logger.h">
+      <Filter>include\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tcp\packet.h">
+      <Filter>include\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tcp\tcp_linker.h">
+      <Filter>include\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\thread\task_thread_pool.h">
+      <Filter>include\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ioevent\iocp.h">
+      <Filter>include\ioevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tcp\tcp_listener.h">
+      <Filter>include\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tcp\tcp_client.h">
+      <Filter>include\tcp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\stdx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ini\ini.cpp">
+      <Filter>src\ini</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ioevent\io_event.cpp">
+      <Filter>src\ioevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\log\logger.cpp">
+      <Filter>src\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tcp\packet.cpp">
+      <Filter>src\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tcp\tcp_linker.cpp">
+      <Filter>src\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\thread\task_thread_pool.cpp">
+      <Filter>src\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\timer\timer.cpp">
+      <Filter>src\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ioevent\iocp.cpp">
+      <Filter>src\ioevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tcp\tcp_client.cpp">
+      <Filter>src\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tcp\tcp_listener.cpp">
+      <Filter>src\tcp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
